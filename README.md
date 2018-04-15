@@ -1,10 +1,20 @@
-# 简历
-## Java后台开发
-### 个人简介
-| 张金华        | 17610399639   |  output@outlook.com  |
-| --------   | ----- | ----  |
-|本科      | 男 |   2016年毕业     |
+# 个人简历
 
+<table>
+    <tr  align="left">
+        <th colspan="3" >Java后台开发</th>
+    </tr>
+    <td>张金华</td>
+        <td>17610399639</td>
+       <td>output@outlook.com</td>
+    <tr>
+    </tr>
+    <tr>
+        <td>本科</td>
+        <td>男</td>
+        <td>2016年毕业</td>
+    </tr>
+</table>
 
 ### 基本技能
 
