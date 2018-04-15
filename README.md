@@ -14,7 +14,11 @@
         <td>男</td>
         <td>2016年毕业</td>
     </tr>
+         <tr  align="left">
+        <th colspan="3">2016-现在：去哪儿网</th>
+    </tr>
 </table>
+
 
 ### 基本技能
 
