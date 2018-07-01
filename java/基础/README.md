@@ -4,14 +4,13 @@
 3. HashTable， HashMap, concurrentHashMap的原理 线程安全，rehash 哈希碰撞
 4. 静态代理 动态代理
 5. 怎么实现一个hashMap一分钟以后key过期
-6. java中String类为什么要设计成final，StringBuffer 、StringBuild的区别
+6. java中String类为什么要设计成final，StringBuffer 、StringBuild的区别 Done
 7. bio与nio的区别，以及适用范围
 8. hashCode() 与 equals() 生成算法、方法怎么重写
 9. 抽象类和接口的区别
 10. NIO底层细节， take， pull， offier背后原理
 11. select，poll，epoll 底层原理 操作系统相关
-12. java基础
-13. protubuff && protostuff
+12. protubuff && protostuff
 
 #设计模式
 1. 策略模式，工厂模式， 单例， 责任链
