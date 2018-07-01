@@ -14,7 +14,7 @@ A:
 String是不可变对象，一旦初始化就不能改变。而StringBuffer和StringBuilder均为可变对象。String因为它的不可变性天然线程安全，而StringBuffer内部使用synchronized来保证它是线程安全的，StringBuilder是非线程安全的。
 
 |               | 性能  |  线程安全  |  可变   |
-| --------      |      | :----:    |
+| --------      |   :----:   | :----:    |:----:    |
 | String        | 快    |   是      |  不可变 |
 | StringBuilder | 超快  |   否      |  可变   |
 | StringBuffer  | 慢    |  是       |  可变  |
