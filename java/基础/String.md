@@ -5,7 +5,10 @@ A: 1. 实现保证，内部属性设置为final，保证初始化之后就不能
 参考
 
 https://www.zhihu.com/question/20618891
+
 https://blog.csdn.net/yuqi007163/article/details/53559864
+
+https://segmentfault.com/a/1190000009888357
 
 ----
 Q: String/StringBuffer/StringBuilder的区别
