@@ -13,3 +13,7 @@
 13. 数据库连接池
 14. 读写分离的好处
 15. mysql慢查询排查与优化
+16. mvcc详解
+17. next-key 详解
+18. 快照度？当前读
+ https://blog.csdn.net/silyvin/article/details/79280934
