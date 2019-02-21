@@ -1,3 +1,6 @@
+#友情链接
+这里的题比较多，可以阅读一遍
+[EasyJob/java_summary.md at master · it-interview/EasyJob · GitHub](https://github.com/it-interview/EasyJob/blob/master/Questions/java_summary.md)
 #基础
 1. string为什么不可变 Done
 2. volatile关键字的意义, 具体的使用场景
@@ -18,7 +21,7 @@
 #线程并发相关
 1. 如何估算线程数 Done
 2. 线程池的任务怎么给他中断执行, 中断执行的实现
-3. 实现过线程池吗? 其实说出线程池的原理就行 
+3. 实现过线程池吗? 其实说出线程池的原理就行
 4. java线程状态
 5. threadlocal
 6. copy on write
