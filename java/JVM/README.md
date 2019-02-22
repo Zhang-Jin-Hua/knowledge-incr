@@ -16,3 +16,5 @@
     7. HSDIS：JIT生成代码反汇编
 9. 双亲委派模型中的方法
     findLoadedClass(),LoadClass(),findBootstrapClassOrNull(),findClass(),resolveClass()
+10. AQS
+11. CAS
