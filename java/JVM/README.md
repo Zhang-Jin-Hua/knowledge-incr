@@ -18,3 +18,4 @@
     findLoadedClass(),LoadClass(),findBootstrapClassOrNull(),findClass(),resolveClass()
 10. AQS
 11. CAS
+12. OOM异常抛出的时机
