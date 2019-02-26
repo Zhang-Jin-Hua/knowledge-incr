@@ -27,16 +27,16 @@
  https://blog.csdn.net/silyvin/article/details/79280934
 19. 三大范式
  https://www.cnblogs.com/knowledgesea/p/3667395.html
-20. 主从复制：
+20. 主从复制&&主主复制：
     操作流程 https://www.cnblogs.com/nbuntu/p/5523331.html
     所有参数 https://www.cnblogs.com/qianniao12/p/8011222.html
     1. 正常场景
       ```
       1. 锁表，
-      2. 重置slave为master，把变成可以同步的
-      3. 降级主库
-      4. 同步数据
-      5. 开启
+      2. 重置slave为master，把变成可以同步的,
+      3. 降级主库,
+      4. 同步数据,
+      5. 开启.
       ```
     2. 异常场景
       ```
