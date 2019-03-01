@@ -45,4 +45,8 @@
       3. resetMaster
       4. stopSlave，change master to master_host='IP'
       ```
-21.
+21. spring主从数据库方案 https://blog.csdn.net/qq_37878879/article/details/78416520
+22. mysql 多级缓存 https://www.cnblogs.com/maoyizhimi/p/7778504.html
+23. 允许批量更新
+  allowMultiQueries=true
+24. MyIsam http://www.cnblogs.com/y-rong/p/8110596.html
