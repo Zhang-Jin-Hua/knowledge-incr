@@ -9,6 +9,7 @@
     oracle,先放到缓存中,commit后直接写硬盘.
     mysql,不知道原理,帮顶.
     ```
+    https://www.cnblogs.com/f-ck-need-u/archive/2018/05/08/9010872.html
 4. MMM & PXC
 5. Mysql bingo
 6. mysql 索引， 索引的分类
