@@ -25,7 +25,7 @@ klass类型指针:即对象指向它的类元数据的指针，虚拟机通过�
 2. 实例数据（Instance Data）: 对象真正存储的有效信息，即各类属性值
 3. 对齐/填充（Padding）
 对齐（Alignment）:HotSpot VM的自动内存管理系统要求对象起始地址必须是8字节的整数倍,对象的大小必须是8字节的整数倍。
-填充（Padding）：补齐的粒度是4 bytes，JVM分配内存空间一次最少分配8 bytes，对象中字段对齐的最小粒度为4 bytes。
+填充（Padding）：补齐的粒度是4 bytes，JVM分配内存空间一次最少分配8 bytes，对象中字段对齐的最小粒度为4 bytes
 
 引用的大小：word size
 在32位系统中为4bytes，64位为8bytes
