@@ -1,3 +1,7 @@
+Java虚拟机规范: https://docs.oracle.com/javase/specs/jvms/se10/html/
+
+
+
 1. 类成员的加载顺序 Done
 2. jvm类加载过程 Done
 3. jvm GC Root都有哪些 Done

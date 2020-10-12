@@ -14,10 +14,34 @@ https://segmentfault.com/a/1190000009888357
 Q: String/StringBuffer/StringBuilder的区别
 
 A:
-String是不可变对象，一旦初始化就不能改变。而StringBuffer和StringBuilder均为可变对象。String因为它的不可变性天然线程安全，而StringBuffer内部使用synchronized来保证它是线程安全的，StringBuilder是非线程安全的。
+String是不可变对象，一旦初始化就不能改变。而StringBuffer和StringBuilder均为可变对象。String因为它的不可变性天然线程安全，而StringBuffer内部使用synchronized来保证它是线程安全的，StringBuilder是非123线程安全的。
 
 |               | 性能  |  线程安全  |  可变   |
 | --------      |   :----:   | :----:    |:----:    |
 | String        | 快    |   是      |  不可变 |
 | StringBuilder | 超快  |   否      |  可变   |
 | StringBuffer  | 慢    |  是       |  可变  |
+
+StringBuffer和StringBuilder均继承自AbstractStringBuilder，AbstractStringBuilder实现了各类append方法。StringBuffer的线程安全通过sychronized实现，均加在了方法签名上。
+
+```
+    @Override
+    public synchronized StringBuffer append(CharSequence s) {
+        toStringCache = null;
+        super.append(s);
+        return this;
+    }
+
+    /**
+     * @throws IndexOutOfBoundsException {@inheritDoc}
+     * @since      1.5
+     */
+    @Override
+    public synchronized StringBuffer append(CharSequence s, int start, int end)
+    {
+        toStringCache = null;
+        super.append(s, start, end);
+        return this;
+    }
+```
+
